@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Wallet</title>
+</head>
+<body>
+    <h1 class="text-center" style="margin-top:5%">Token market</h1>
+    <h5 class="text-center">
+        <a href="subastas-pool.html">Subastas</a>
+    </h5>
+    <div>
+            <h4 class="text-center" id="account"></h4>
+            <h5 class="text-center" id="tokens">EMKT:</h5>
+            <h5 class="text-center" id="eth">ETH:</h5>
+            <h5 class="text-cener">
+                <a href=""></a>
+            </h3>
+        </div>
+    <div class="container">
+            <table>
+                    <thead>
+                        <tr>
+                            <th>Token symbol</th>
+                            <th>Cantidad disponible</th>
+                            <th>Cantidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                   <tbody>
+                       <td style="width:25%;">
+                        EMKT
+                       </td>
+                       <td style="width:25%;">
+                            <a id="current_tokens"></a>
+                        </td>
+                        <td style="width:25%;">
+                            <input type="number" id="buy-amount" value="1" disabled>
+                        </td>
+                        <td style="width:25%;">
+                            <button class="btn btn-primary" id="buy-tokens">Comprar</button>
+                        </td>
+                   </tbody>
+               </table>
+    </div>
+    <script src="./dist/main.js"></script>
+</body>
+</html>
